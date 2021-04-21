@@ -1,0 +1,21 @@
+.container {
+  background: white;
+  border: 1px solid #81ecec;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Sacramento', 'Pacifico', sans-serif;
+  list-style-type: none;
+  padding: 15px;
+  justify-items: center;
+  font-weight: bold;
+  font-size: 2em;
+  color: #ffafcc;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

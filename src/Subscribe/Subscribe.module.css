@@ -1,0 +1,26 @@
+.container {
+  background: white;
+  border: 1px solid #81ecec;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  padding: 100px 80px;
+  justify-items: center;
+}
+
+.content {
+  background: #edf6f9;
+  border: 2px dashed #edf6f9;
+  padding: 10px;
+}
+
+.success {
+  text-align: center;
+}
+
+b {
+  font-size: 1.3em;
+}
