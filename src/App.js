@@ -45,7 +45,7 @@ function App() {
   return isEmpty(fetchedData) ? null : (
 <div className={styles.body}>
 <header className={styles.nav}>
-<Link to="/home" ><img className={styles.logo} src="https://media1.giphy.com/media/ZCSbHLCd1cdEYw7rw4/giphy.gif" alt="diy logo"/></Link>
+<Link to="/" ><img className={styles.logo} src="https://media1.giphy.com/media/ZCSbHLCd1cdEYw7rw4/giphy.gif" alt="diy logo"/></Link>
 <nav>
 <ul className={styles.list}>
 <li className={styles.li}><Link className={styles.navlink} to="/category">Category</Link></li>
@@ -58,7 +58,7 @@ function App() {
 
 
 <Switch>
-<Route path="/home" exact component={Home} />
+<Route path="/" exact component={Home} />
 
 <Route path="/subscribe" exact component={Subscribe} />
 <Route path="/aboutus" exact component={AboutUs} />
@@ -68,25 +68,19 @@ function App() {
         exact
         path={`/diylist/:id`}
         render={({ match }) => {
-          // getting the parameters from the url and passing
-          // down to the component as props
           return fetchedData ? <Tutorial
             craft={fetchedData[match.params.id]}
           /> : null
         }}
       />
 
-            <Route exact path="/diylist">
-              <DiyList crafts={Object.values(fetchedData)} />
-            </Route>
+      <Route exact path="/diylist">
+        <DiyList crafts={Object.values(fetchedData)} />
+      </Route>
 
-            <Route exact path="/category">
-              <Category crafts={Object.values(fetchedData)} />
-            </Route>
-
-
-
-
+      <Route exact path="/category">
+        <Category crafts={Object.values(fetchedData)} />
+      </Route>
 </Switch>
 
 
@@ -98,11 +92,7 @@ function App() {
 </footer>
 
   </div>
-
-
 );
-
-
 }
 
 export default App;

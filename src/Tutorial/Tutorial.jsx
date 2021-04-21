@@ -20,6 +20,7 @@ const Tutorial = (props) => {
             {props.craft.displayDate}
           </time>
         </header>
+        <br />
         <Text text={props.craft.tutorial} />
 
     </div>

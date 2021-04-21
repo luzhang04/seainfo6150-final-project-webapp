@@ -18,7 +18,7 @@ const Subscribe = () => {
   {
     submittedForm ? (
       <div><h2 className={styles.success}>Success, {submittedForm.get("firstname")}! </h2>
-      <h2>we'll send updates to {submittedForm.get("email")} at the frequency of {submittedForm.get("dropdown")}!</h2></div>
+      <h2>we'll send updates to {submittedForm.get("email")} {submittedForm.get("dropdown")}!</h2></div>
     ) : (
       <form onSubmit={onSubmit} className = {styles.content}>
           <div className="container">

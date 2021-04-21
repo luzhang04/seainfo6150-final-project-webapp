@@ -16,12 +16,12 @@ const DiyItem = (props) => {
   return (
     <li className={styles.container}>
 
-        <header className={styles.header}>
+        <header>
           <DiyImage
             url={props.craft.image}
             name={props.craft.name}
           />
-          <h2 className={styles.title}>
+          <h2 >
             <Link
               className={styles.link}
               to={`/diylist/${props.craft.id}`}
@@ -30,7 +30,7 @@ const DiyItem = (props) => {
             </Link>
           </h2>
         </header>
-        <div className={styles.wrapper}>
+        <div >
 
               <time className={styles.time} dateTime={props.craft.timeStamp}>
                 {props.craft.displayDate}
