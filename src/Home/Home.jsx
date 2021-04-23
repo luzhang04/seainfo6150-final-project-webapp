@@ -1,17 +1,28 @@
 import React from 'react'
-import Form from "../Form/Form";
-import diylife from "../images/DiyLife.jpeg";
-import Header from "../Header/Header";
+import diyhome200 from "../images/diyhome200.jpg";
+import diyhome400 from "../images/diyhome400.jpg";
+import diyhome800 from "../images/diyhome800.jpg";
 import styles from "./Home.module.css";
 import diyhome from "../images/diyhome.jpeg";
-import diyflower from "../images/diyflower.jpeg";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
         <div className={styles.container}>
-                    <h1>DIY Your Dream Life</h1>
-        <Link to="/diylist" ><img src={diyhome} alt="diy home" /></Link>
+                    <h1 className={styles.title}>DIY Your Dream Life</h1>
+        <Link to="/diylist" >
+        <img
+            srcset={`${diyhome200} 200w, ${diyhome400} 400w, ${diyhome800} 800w`}
+            sizes="
+            (max-width: 320px) 200px,
+            (max-width: 500px) 400px,
+            (max-width: 900px) 800px,
+            600px
+            "
+            src={diyhome}
+            alt="diy home"
+      /></Link>
+        <br /><br /><br />
 
 
         </div>

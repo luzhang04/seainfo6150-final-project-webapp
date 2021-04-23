@@ -4,6 +4,7 @@ import styles from "./ContactUs.module.css";
 const ContactUs = () => {
   return (
     <div className = {styles.container}>
+    <article className={styles.article}>
             <h1>Contact Us</h1>
             <br />
             <p>
@@ -25,10 +26,14 @@ const ContactUs = () => {
                 <br />
                 <span>please email prs@www.com.</span>
             </p>
-            <br />
+            <br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br />
+            <br /><br />
 
 
 
+    </article>
         </div>
   )
 }

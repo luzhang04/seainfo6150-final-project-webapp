@@ -89,6 +89,7 @@ const Subscribe = () => {
                <br/>
                <br/>
               <button type="submit"><b>Subscribe</b></button>
+              <br/><br/>
 
           </div>
 

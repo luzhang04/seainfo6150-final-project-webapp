@@ -1,3 +1,10 @@
 .content {
   text-align: justify;
+  background: #edf6f9;
+  border: 2px dashed #edf6f9;
+  padding: 10px;
+  box-sizing: border-box;
+
 }
+
+

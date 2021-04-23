@@ -7,9 +7,8 @@ import DiyImage from "../DiyImage/DiyImage";
 const Tutorial = (props) => {
   return (
     <div className={styles.container}>
-
-
-        <header>
+    <article className = {styles.article}>
+      <header>
           <DiyImage
             url={props.craft.image}
             name={props.craft.name}
@@ -22,7 +21,7 @@ const Tutorial = (props) => {
         </header>
         <br />
         <Text text={props.craft.tutorial} />
-
+   </article>
     </div>
   );
 };

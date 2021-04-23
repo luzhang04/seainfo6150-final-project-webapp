@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subscribe tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+       Subscribe for DIY updates
+    </h1>
+    <form
+      class="content"
+    >
+      <div
+        class="container"
+      >
+        <p>
+          Please fill in this form to subscribe, fields with * are required.
+        </p>
+        <label
+          for="firstname"
+        >
+          <b>
+            *First Name: 
+          </b>
+        </label>
+        <div>
+          <input
+            id="firstname"
+            name="firstname"
+            placeholder="Firstname"
+            required=""
+            type="text"
+          />
+        </div>
+        <br />
+        <label
+          for="lastname"
+        >
+          <b>
+            *Last Name: 
+          </b>
+        </label>
+        <div>
+          <input
+            id="lastname"
+            name="lastname"
+            placeholder="Lastame"
+            required=""
+            type="text"
+          />
+        </div>
+        <br />
+        <label
+          for="email"
+        >
+          <b>
+            *Email: 
+          </b>
+        </label>
+        <div>
+          <input
+            id="email"
+            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\\\\.[a-z]{2,}$"
+            placeholder="Email"
+            required=""
+            title="Enter a valid email address."
+            type="text"
+          />
+        </div>
+        <br />
+        <label
+          for="dropdownId"
+        >
+          <b>
+            How frequent would you like to hear from us? 
+          </b>
+        </label>
+        <div>
+          <select
+            id="dropdownId"
+            name="dropdown"
+          >
+            <option
+              value="everyday"
+            >
+              Every Day
+            </option>
+            <option
+              value="everyweek"
+            >
+              Every Week
+            </option>
+            <option
+              value="everymonth"
+            >
+              Every Month
+            </option>
+          </select>
+        </div>
+        <br />
+        <label
+          for="tel"
+        >
+          <b>
+            Phone Number: 
+          </b>
+           
+        </label>
+        <div>
+          <input
+            id="tel"
+            name="tel"
+            pattern="[0-9]{10}"
+            placeholder="000-000-0000"
+            title="Phone number is in ten-digit format"
+            type="text"
+          />
+        </div>
+        <br />
+        <div>
+          <b>
+            Would you like to receive text messages from us? 
+          </b>
+        </div>
+        <input
+          id="yes"
+          name="radio"
+          type="radio"
+          value="yes"
+        />
+        <label
+          for="yes"
+        >
+          Yes
+        </label>
+        <br />
+        <input
+          id="no"
+          name="radio"
+          type="radio"
+          value="no"
+        />
+        <label
+          for="no"
+        >
+          No
+        </label>
+        <br />
+        <br />
+        <div>
+          <b>
+            What crafts are you interested in? (please select all)
+          </b>
+        </div>
+        <input
+          name="checkbox1"
+          type="checkbox"
+          value="EasterDIY"
+        />
+        <label
+          for="checkbox1"
+        >
+           Easter DIY 
+        </label>
+        <br />
+        <input
+          id="checkbox1"
+          name="checkbox2"
+          type="checkbox"
+          value="Valentine's-Day-diy"
+        />
+        <label
+          for="checkbox2"
+        >
+           Valentine DIY
+        </label>
+        <br />
+        <input
+          id="checkbox2"
+          name="checkbox3"
+          type="checkbox"
+          value="Christmas-diy"
+        />
+        <label
+          for="checkbox3"
+        >
+           Christmas DIY
+        </label>
+        <br />
+        <input
+          id="checkbox3"
+          name="checkbox4"
+          type="checkbox"
+          value="Halloween-diy"
+        />
+        <label
+          for="checkbox3"
+        >
+           Halloween DIY
+        </label>
+        <br />
+        <br />
+        <label
+          for="dropdownId2"
+        >
+          <b>
+            How did you hear about us? 
+          </b>
+        </label>
+        <div>
+          <select
+            id="dropdownId2"
+            name="dropdown2"
+          >
+            <option
+              value="--"
+            >
+              ----
+            </option>
+            <option
+              value="SearchEngine"
+            >
+              Search engine
+            </option>
+            <option
+              value="GoogleAds"
+            >
+              Google Ads
+            </option>
+            <option
+              value="YoutubeAds"
+            >
+              Youtube Ads
+            </option>
+            <option
+              value="Twitter post"
+            >
+              Twitter post
+            </option>
+            <option
+              value="Radio"
+            >
+              Radio
+            </option>
+            <option
+              value="TV"
+            >
+              TV
+            </option>
+            <option
+              value="Newspaper"
+            >
+              Newspaper
+            </option>
+            <option
+              value="Others"
+            >
+              Others
+            </option>
+          </select>
+        </div>
+        <br />
+        <br />
+        <button
+          type="submit"
+        >
+          <b>
+            Subscribe
+          </b>
+        </button>
+        <br />
+        <br />
+      </div>
+    </form>
+  </div>
+</div>
+`;

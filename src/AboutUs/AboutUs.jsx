@@ -4,6 +4,7 @@ import styles from "./AboutUs.module.css";
 const AboutUs = () => {
   return (
     <div className = {styles.container}>
+    <article className={styles.article}>
     <h1>About Us</h1>
 
     <br />
@@ -16,7 +17,12 @@ const AboutUs = () => {
     <p>I have been working hard to reimagine this website. Along with a great team of editors, we'll bring you a whole bunch of new content, including recipes, shopping tips, design ideas, and more. Of course, I will be here continually telling stories of my cute husband, and sharing pictures of the dogs, the ranch, and all the things I’m cooking.</p>
     <br />
     <p>I can’t wait to see what’s to come. </p>
-    <br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  
+
+    </article>
+    
 </div>
   )
 }

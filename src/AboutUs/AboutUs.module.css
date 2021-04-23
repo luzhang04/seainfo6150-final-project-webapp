@@ -1,8 +1,26 @@
+
 .container {
-  background: white;
+  background: #edf6f9;
+  border: 1px solid #edf6f9;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
   gap: 20px;
-  font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
-  padding: 25px 80px 400px 80px;
-  border: 1px solid #81ecec;
+  padding: 100px;
+  justify-items: center;
+}
+
+.article {
+  background: #edf6f9;
+  border: 2px dashed #edf6f9;
+  padding: 10px;
+  box-sizing: border-box;
+  width:50%;
+}
+
+h1 {
+  color: #457b9d;
+  font-weight: bold;
 }

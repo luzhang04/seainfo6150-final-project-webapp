@@ -4,27 +4,13 @@ import { isEmpty } from "lodash";
 import Tutorial from "./Tutorial/Tutorial";
 import DiyList from "./DiyList/DiyList";
 import styles from "./App.module.css";
-import diylogo from "./images/diylogo.jpeg";
 import ContactUs from "./ContactUs/ContactUs";
 import AboutUs from "./AboutUs/AboutUs";
 import Subscribe from "./Subscribe/Subscribe";
 import Category from "./Category/Category";
-
-
 import Home from "./Home/Home.jsx";
-import Foo from "./Foo/Foo.jsx";
-import Bar from "./Bar/Bar.jsx";
-import Baz from "./Baz/Baz.jsx";
-import Error from "./Error/Error.jsx";
+import Header from "./Header/Header.jsx";
 
-// here is some external content. look at the /baz route below
-// to see how this content is passed down to the components via props
-const externalContent = {
-  id: "article-1",
-  title: "An Article",
-  author: "April Bingham",
-  text: "Some text in the article",
-};
 
 function App() {
   const [fetchedData, setFetchedData] = useState();
@@ -44,25 +30,14 @@ function App() {
 
   return isEmpty(fetchedData) ? null : (
 <div className={styles.body}>
-<header className={styles.nav}>
-<Link to="/" ><img className={styles.logo} src="https://media1.giphy.com/media/ZCSbHLCd1cdEYw7rw4/giphy.gif" alt="diy logo"/></Link>
-<nav>
-<ul className={styles.list}>
-<li className={styles.li}><Link className={styles.navlink} to="/category">Category</Link></li>
-<li className={styles.li}><Link className={styles.navlink} to="/subscribe">Subscribe</Link></li>
-<li className={styles.li}><Link className={styles.navlink} to="/aboutus">About us</Link></li>
-<li className={styles.li}><Link className={styles.navlink} to="/contactus">Contact Us</Link></li>
-</ul>
-</nav>
-</header>
-
-
+<Header />
 <Switch>
 <Route path="/" exact component={Home} />
-
+<Route path="/category" exact component={Category} />
 <Route path="/subscribe" exact component={Subscribe} />
 <Route path="/aboutus" exact component={AboutUs} />
 <Route path="/contactus" exact component={ContactUs} />
+
 
       <Route
         exact
@@ -78,9 +53,14 @@ function App() {
         <DiyList crafts={Object.values(fetchedData)} />
       </Route>
 
-      <Route exact path="/category">
-        <Category crafts={Object.values(fetchedData)} />
-      </Route>
+      <Route exact path={`/diylist/:category`}
+      render={({match}) => {
+        const matchCategory = Object.values(fetchedData).filter(craft => {
+          return craft.category === match.params.category;
+        });
+        return fetchedData ? <DiyList crafts={Object.values(matchCategory)} /> : null;
+      }}
+      />
 </Switch>
 
 
