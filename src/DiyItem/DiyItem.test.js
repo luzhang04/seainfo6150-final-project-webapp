@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import DiyItem from "./DiyItem.jsx";
+import { BrowserRouter } from "react-router-dom";
 
 describe("DiyItem tests", () => {
     const craft = {
@@ -15,7 +16,7 @@ describe("DiyItem tests", () => {
     };
 
     it("renders correctly", () => {
-      const { container } = render(<DiyItem craft={craft}/>);
+      const { container } = render(<BrowserRouter><DiyItem craft={craft}/></BrowserRouter>);
       expect(container).toMatchSnapshot();
     });
   });

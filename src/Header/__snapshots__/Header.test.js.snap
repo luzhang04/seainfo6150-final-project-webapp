@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header tests renders correctly 1`] = `
+<div>
+  <header
+    class="nav"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="diy logo"
+        class="logo"
+        src="https://media1.giphy.com/media/ZCSbHLCd1cdEYw7rw4/giphy.gif"
+      />
+    </a>
+    <nav>
+      <ul
+        class="list"
+      >
+        <li
+          class="li"
+        >
+          <a
+            class="navlink"
+            href="/diylist"
+          >
+            All crafts
+          </a>
+        </li>
+        <li
+          class="li"
+        >
+          <a
+            class="navlink"
+            href="/category"
+          >
+            Category
+          </a>
+        </li>
+        <li
+          class="li"
+        >
+          <a
+            class="navlink"
+            href="/subscribe"
+          >
+            Subscribe
+          </a>
+        </li>
+        <li
+          class="li"
+        >
+          <a
+            class="navlink"
+            href="/aboutus"
+          >
+            About us
+          </a>
+        </li>
+        <li
+          class="li"
+        >
+          <a
+            class="navlink"
+            href="/contactus"
+          >
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <ul
+      class="ul"
+    >
+      <li
+        class="list"
+      >
+        <a
+          class="diylink"
+          href="/diylist/easter"
+        >
+          Easter DIY
+        </a>
+        <a
+          href="/diylist/easter"
+        >
+          <img
+            alt="easter diy"
+            src="easter.jpeg"
+          />
+        </a>
+      </li>
+      <li
+        class="list"
+      >
+        <a
+          class="diylink"
+          href="/diylist/halloween"
+        >
+          Halloween DIY
+        </a>
+        <a
+          href="/diylist/halloween"
+        >
+          <img
+            alt="halloween diy"
+            src="halloween.jpeg"
+          />
+        </a>
+      </li>
+      <li
+        class="list"
+      >
+        <a
+          class="diylink"
+          href="/diylist/st-patricks"
+        >
+          St Patricks DIY
+        </a>
+        <a
+          href="/diylist/st-patricks"
+        >
+          <img
+            alt="st-patricks diy"
+            src="stpatricks.jpeg"
+          />
+        </a>
+      </li>
+      <li
+        class="list"
+      >
+        <a
+          class="diylink"
+          href="/diylist/valentines"
+        >
+          Valentines DIY
+        </a>
+        <a
+          href="/diylist/valentines"
+        >
+          <img
+            alt="valentines diy"
+            src="valentines.jpeg"
+          />
+        </a>
+      </li>
+      <li
+        class="list"
+      >
+        <a
+          class="diylink"
+          href="/diylist/christmas"
+        >
+          Christmas DIY
+        </a>
+        <a
+          href="/diylist/christmas"
+        >
+          <img
+            alt="christmas diy"
+            src="christmas.jpeg"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

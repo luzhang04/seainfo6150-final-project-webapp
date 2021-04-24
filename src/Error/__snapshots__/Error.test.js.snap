@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <img
+      alt="error"
+      src="404-3.png"
+    />
+    <br />
+    <h1
+      class="h1"
+    >
+      Oopsie! Something's missing...
+    </h1>
+    <br />
+    <h2
+      class="h2"
+    >
+      click 
+      <a
+        class="link"
+        href="/"
+      >
+        here
+      </a>
+       to go to DIY's home page
+    </h2>
+  </div>
+</div>
+`;

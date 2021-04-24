@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiyList tests renders correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="container"
+    >
+      <li
+        class="container"
+      >
+        <img
+          alt="DIY Splatter Painted Easter Eggs"
+          class="image"
+          src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/splatter-painted-easter-egg-designs-1616169765.jpg?crop=0.9514285714285714xw:1xh;center,top&resize=980:*"
+        />
+        <header
+          class="header"
+        >
+          <h2>
+            <a
+              class="link"
+              href="/diylist/0"
+            >
+              DIY Splatter Painted Easter Eggs
+            </a>
+          </h2>
+          <div
+            class="content"
+          >
+            <time
+              class="time"
+              datetime="2018-11-22T17:55:57.000Z"
+            >
+              November 22nd 2018, 9:55 am
+            </time>
+            <p>
+              Pick a color that'll match your décor, then create these chic splatter Easter eggs. Display them as a center piece or anywhere around the house.
+            </p>
+          </div>
+        </header>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

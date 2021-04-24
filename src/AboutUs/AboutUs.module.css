@@ -1,26 +1,27 @@
-
 .container {
-  background: #edf6f9;
-  border: 1px solid #edf6f9;
-  font-family: 'Montserrat', Helvetica, sans-serif;
-  display: grid;
-  grid-template-columns: auto;
-  align-items: center;
-  gap: 20px;
-  list-style-type: none;
-  padding: 100px;
+	background: #edf6f9;
+	border: 1px solid #edf6f9;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	display: grid;
+	grid-template-columns: auto;
+	align-items: center;
+	gap: 20px;
+	list-style-type: none;
+	padding: 100px;
   justify-items: center;
+  height:100%;
 }
 
 .article {
-  background: #edf6f9;
-  border: 2px dashed #edf6f9;
-  padding: 10px;
-  box-sizing: border-box;
-  width:50%;
+	background: #edf6f9;
+	border: 2px dashed #edf6f9;
+	padding: 10px;
+	box-sizing: border-box;
+  width: 50%;
+  font-size: 1.3em;
 }
 
 h1 {
-  color: #457b9d;
-  font-weight: bold;
+	color: #457b9d;
+	font-weight: bold;
 }

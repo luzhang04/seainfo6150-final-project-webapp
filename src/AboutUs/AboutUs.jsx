@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./AboutUs.module.css";
 
-const AboutUs = () => {
+const AboutUs = () => { 
   return (
     <div className = {styles.container}>
     <article className={styles.article}>
@@ -18,7 +18,7 @@ const AboutUs = () => {
     <br />
     <p>I can’t wait to see what’s to come. </p>
     <br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br />
   
 
     </article>

@@ -1,5 +1,5 @@
 .container {
-	background: #edf6f9;
+	background: white;
 	border: 1px solid #edf6f9;
 	font-family: 'Montserrat', Helvetica, sans-serif;
 	display: grid;
@@ -11,16 +11,21 @@
 	justify-items: center;
 }
 
-.article {
-	background: #edf6f9;
-	border: 2px dashed #edf6f9;
-	padding: 10px;
-	box-sizing: border-box;
-  width: 50%;
-  font-size: 1.3em;
-}
-
-h1 {
-	color: #457b9d;
+.h1 {
+	font-size: 3em;
 	font-weight: bold;
 }
+
+.h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color :#fab1a0;
+  }
+

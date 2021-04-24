@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import DiyList from "./DiyList.jsx";
+import { BrowserRouter } from "react-router-dom";
 
 describe("DiyList tests", () => {
     const crafts = [
@@ -16,7 +17,7 @@ describe("DiyList tests", () => {
    ];
 
     it("renders correctly", () => {
-      const { container } = render(<DiyList crafts={crafts}/>);
+      const { container } = render(<BrowserRouter><DiyList crafts={crafts}/></BrowserRouter>);
       expect(container).toMatchSnapshot();
     });
   });
