@@ -12,7 +12,7 @@ const Home = () => {
                     <h1 className={styles.title}>DIY Your Dream Life</h1>
         <Link to="/diylist" >
         <img
-            srcset={`${diyhome200} 200w, ${diyhome400} 400w, ${diyhome800} 800w`}
+            srcSet={`${diyhome200} 200w, ${diyhome400} 400w, ${diyhome800} 800w`}
             sizes="
             (max-width: 320px) 200px,
             (max-width: 500px) 400px,
@@ -22,7 +22,7 @@ const Home = () => {
             src={diyhome}
             alt="diy home"
       /></Link>
-        <br /><br /><br />
+
 
 
         </div>

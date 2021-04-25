@@ -1,14 +1,15 @@
 .container {
   background:#edf6f9;
   border: 1px solid #edf6f9;
-  display: grid;
-  grid-template-columns: auto;
   align-items: center;
   gap: 20px;
+  display:flex;
+  flex-direction: column;
   font-family: 'Montserrat', Helvetica, sans-serif;
   list-style-type: none;
-  padding: 100px 80px;
+  padding: 0 80px;
   justify-items: center;
+  height:100%;
 }
 
 .content {

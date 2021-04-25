@@ -2,13 +2,12 @@
 	background: #edf6f9;
 	border: 1px solid #edf6f9;
 	font-family: 'Montserrat', Helvetica, sans-serif;
-	display: grid;
-	grid-template-columns: auto;
+	display: flex;
 	align-items: center;
 	gap: 20px;
 	list-style-type: none;
 	padding: 100px;
-  justify-items: center;
+  justify-content: center;
   height:100%;
 }
 

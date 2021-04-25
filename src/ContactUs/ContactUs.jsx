@@ -26,10 +26,6 @@ const ContactUs = () => {
                 <br />
                 <span>please email prs@www.com.</span>
             </p>
-            <br /><br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br /><br />
-            <br /><br />
 
 
 

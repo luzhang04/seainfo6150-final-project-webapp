@@ -21,9 +21,7 @@ const DiyList = (props) => {
   return (
     <div>
       {displayContent}
-      <br /><br /><br /><br /><br /><br /><br />
-      <br /><br /><br /><br /><br /><br /><br />
-      <br /><br /><br /><br /><br /><br />
+      <br/><br/><br/><br/><br/><br/>
     </div>
     
   );

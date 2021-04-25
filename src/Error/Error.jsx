@@ -7,9 +7,9 @@ const Error = () => {
     return (
         <div className={styles.container}>
             <img src={error} alt="error" />
-            <br/>
+           
             <h1 className={styles.h1}>Oopsie! Something's missing...</h1>
-            <br />
+        
             <h2 className={styles.h2}>click <Link className={styles.link} to="/">here</Link> to go to DIY's home page</h2>
         </div>
     )

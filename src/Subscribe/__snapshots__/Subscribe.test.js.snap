@@ -240,21 +240,6 @@ exports[`Subscribe tests renders correctly 1`] = `
               Twitter post
             </option>
             <option
-              value="Radio"
-            >
-              Radio
-            </option>
-            <option
-              value="TV"
-            >
-              TV
-            </option>
-            <option
-              value="Newspaper"
-            >
-              Newspaper
-            </option>
-            <option
               value="Others"
             >
               Others

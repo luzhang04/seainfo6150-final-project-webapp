@@ -2,22 +2,22 @@
 	background: white;
 	border: 1px solid #edf6f9;
 	font-family: 'Montserrat', Helvetica, sans-serif;
-	display: grid;
-	grid-template-columns: auto;
+	display: flex;
 	align-items: center;
 	gap: 20px;
-	list-style-type: none;
-	padding: 100px;
-	justify-items: center;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
 }
 
 .h1 {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: bold;
 }
 
 .h2 {
-    font-size: 2em;
+    font-size: 1em;
     font-weight: bold;
 }
 

@@ -20,7 +20,7 @@ exports[`DiyList tests renders correctly 1`] = `
           <h2>
             <a
               class="link"
-              href="/diylist/0"
+              href="/diylist/easter/0"
             >
               DIY Splatter Painted Easter Eggs
             </a>

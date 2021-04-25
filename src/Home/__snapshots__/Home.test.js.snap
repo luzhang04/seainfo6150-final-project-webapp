@@ -20,9 +20,6 @@ exports[`renders the home component correctly 1`] = `
         srcset="diyhome200.jpg 200w, diyhome400.jpg 400w, diyhome800.jpg 800w"
       />
     </a>
-    <br />
-    <br />
-    <br />
   </div>
 </div>
 `;
